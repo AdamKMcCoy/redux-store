@@ -1,9 +1,7 @@
 import React from "react";
 import Auth from "../../utils/auth";
 import { Link } from "react-router-dom";
-
 function Nav() {
-
   function showNavigation() {
     if (Auth.loggedIn()) {
       return (
@@ -14,8 +12,7 @@ function Nav() {
             </Link>
           </li>
           <li className="mx-1">
-            {/* this is not using the Link component to logout or user and then refresh the application to the start */}
-            <a href="/" onClick={() => Auth.logout()}>
+                      <a href="/" onClick={() => Auth.logout()}>
               Logout
             </a>
           </li>
@@ -38,7 +35,6 @@ function Nav() {
       );
     }
   }
-
   return (
     <header className="flex-row px-1">
       <h1>
@@ -47,12 +43,10 @@ function Nav() {
           -Shop-Shop
         </Link>
       </h1>
-
       <nav>
         {showNavigation()}
       </nav>
     </header>
   );
 }
-
 export default Nav;

@@ -14,12 +14,4 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sambollano/ReduxStore.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sambollano/ReduxStore/issues"
-  },
-  "homepage": "https://github.com/sambollano/ReduxStore#readme"
-}
+    "url": "https://github.com/AdamKMcCoy/redux-store.git"
